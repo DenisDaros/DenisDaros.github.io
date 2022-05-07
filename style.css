@@ -1,0 +1,76 @@
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("./SGBTp8.png");
+    background-size: cover;
+}
+.cabecalho {
+    background-color: #201E22;
+    color:#D6EAE0;
+    font-size: 20px;
+    padding: 20px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+.header-nav {
+    display: flex;
+}
+.a {
+     padding: 0 25px;
+     text-decoration: none;
+     opacity: 0.8;
+} 
+a:hover {
+    opacity: 1;
+}
+a:visited{
+    color: inherit;
+}
+.btn {
+    display: flex;
+    opacity: 0.8;
+    text-decoration: none;
+    padding: 15px;
+    background: #201E22;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 30px;
+    width: 100px;
+    justify-content: center;
+}
+span {
+    color: #D6EAE0;
+}
+.bio {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    align-items: center;
+}
+.bio h1{
+    font-size: 60px;
+}
+.bio h3{
+    font-size: 30px;
+}
+.bio p {
+    padding: 10px;
+    font-size: 20px;
+}
+.IMG {
+    width: 300px;
+    border-radius: 100%;
+}
+.perfil {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    padding: 100px;
+}

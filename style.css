@@ -1,37 +1,51 @@
 * {
     margin: 0%;
     padding: 0;
+    font-size: 100%;
     box-sizing: border-box;
 }
+
 body {
     background-image: url("./SGBTp8.png");
     background-size: cover;
+    font-family: 'Open Sans', sans-serif;
 }
+
 .cabecalho {
+    width: 100%;
     background-color: #201E22;
-    color:#D6EAE0;
+    color: #D6EAE0;
     font-size: 20px;
     padding: 20px 100px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
+    position: absolute;
+    top: 0%;
+    left:0% ;
+
 
 }
+
 .header-nav {
     display: flex;
 }
+
 .a {
-     padding: 0 25px;
-     text-decoration: none;
-     opacity: 0.8;
-} 
+    padding: 0 25px;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
 a:hover {
     opacity: 1;
 }
-a:visited{
+
+a:visited {
     color: inherit;
 }
+
 .btn {
     display: flex;
     opacity: 0.8;
@@ -44,33 +58,52 @@ a:visited{
     width: 100px;
     justify-content: center;
 }
+
 span {
     color: #D6EAE0;
 }
+
 .bio {
     text-align: center;
     display: flex;
     flex-direction: column;
     width: 500px;
     align-items: center;
+
 }
-.bio h1{
+
+.bio h1 {
     font-size: 60px;
 }
-.bio h3{
+
+.bio h3 {
     font-size: 30px;
 }
+
 .bio p {
     padding: 10px;
     font-size: 20px;
 }
+
 .IMG {
     width: 300px;
     border-radius: 100%;
 }
+
 .perfil {
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
+    justify-content: space-around;
     padding: 100px;
+    margin-top: 20px;
+}
+.rodape {
+    background-color: #201E22;
+    color: #D6EAE0;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
 }

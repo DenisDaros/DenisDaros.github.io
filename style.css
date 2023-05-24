@@ -51,7 +51,7 @@ span {
     text-align: center;
     display: flex;
     flex-direction: column;
-    width: 500px;
+    width: 600px;
     align-items: center;
 }
 .bio h1{
@@ -65,12 +65,17 @@ span {
     font-size: 20px;
 }
 .IMG {
-    width: 300px;
+    width: 400px;
     border-radius: 100%;
+}
+.caixa-imagem {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
 }
 .perfil {
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
+    justify-content:space-evenly;
     padding: 100px;
 }

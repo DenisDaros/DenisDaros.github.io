@@ -65,13 +65,15 @@ span {
     font-size: 20px;
 }
 .IMG {
-    width: 400px;
-    border-radius: 100%;
+    width: 250px;
+    /* border-radius: 200px; */
 }
 .caixa-imagem {
     display: flex;
     flex-direction: column;
     justify-content:space-evenly;
+    max-width: 100%; /* Garante que a largura da imagem não ultrapasse a largura do contêiner */
+    height: auto;   /* Mantém a proporção da imagem ao ajustar a largura */
 }
 .perfil {
     display: flex;
